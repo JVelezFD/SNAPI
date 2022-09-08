@@ -1,5 +1,7 @@
 const express = require('express');
 const mongoose = require ('mongoose');
+const { resourceLimits } = require('worker_threads');
+const routes = require ('./routes')
 const db = require('./config/connection');
 
 
@@ -8,7 +10,7 @@ const app = express();
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
-app.use(require('./routes'));
+app.use(routes);
 
 mongoose.set('debug', true);
 
