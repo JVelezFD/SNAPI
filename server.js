@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require ('mongoose');
-const { resourceLimits } = require('worker_threads');
+// const { resourceLimits } = require('worker_threads');
 const routes = require ('./routes')
 const db = require('./config/connection');
 
