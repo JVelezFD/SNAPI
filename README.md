@@ -1,4 +1,4 @@
-# SocialNetworkWebApp
+# SNAPI
 
 
   ## Table of Contents:
