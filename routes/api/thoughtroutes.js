@@ -15,7 +15,7 @@ router
     .get(getAllThoughts)
     .post(createThought)
 
-//by id
+
 router
     .route('/:id')
     .get(getThoughtById)
@@ -25,6 +25,10 @@ router
 router
     .route('/:thoughtId/reactions')
     .post(addReaction)
+    .delete(deleteReaction)
+
+router
+    .route('/:thoughtId/reactions/:reactionId')
     .delete(deleteReaction)
 
 module.exports = router; 
