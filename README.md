@@ -18,7 +18,9 @@
   * [Github](#Questions)
 
   ## Description: 
-  As a social media startup we will use an API for a social network that uses a NoSQL database SO THAT my website can handle large amounts of unstructured data
+  As a social media startup we will use an API for a social network that uses a NoSQL database so that a website can handle large amounts of unstructured data.
+  
+  run Node server.js to get started
 
   ## Technologies: 
   * MongoDB
@@ -27,10 +29,13 @@
   * Moment  
   
   ## Screenshot: 
+  ![Snapisnapshot](https://user-images.githubusercontent.com/101678295/189755531-396b40d6-08b0-4be0-81ca-fe4a7c7f0af2.PNG)
+
   
   
 
   ## Demo:
+  * https://watch.screencastify.com/v/OsMw8hDfoqdKZNzUgwSw
   
   
 
